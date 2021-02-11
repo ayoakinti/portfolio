@@ -8,9 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import twitterIcon from "../images/twitter.svg"
+import linkedInIcon from "../images/linkedin.svg"
+import githubIcon from "../images/github.svg"
 
 import Header from "./header"
-import "./layout.css"
+import "../css/style.css"
+import "../css/styles.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,27 +28,29 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="wrapper">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div>
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
       </div>
-    </>
+      <footer>
+          <div className="footer-link mr-20">
+            <a href="https://twitter.com/iamayoakinti" target="_blank" rel="noreferrer">
+              <img src={twitterIcon} alt=""></img>
+            </a>
+          </div>
+          <div className="footer-link mr-20">
+            <a href="https://www.linkedin.com/in/ayomideakintimehin/" target="_blank" rel="noreferrer">
+              <img src={linkedInIcon} alt=""></img>
+            </a>
+          </div>
+          <div className="footer-link">
+            <a href="https://github.com/iamayoakinti" target="_blank" rel="noreferrer">
+              <img src={githubIcon} alt=""></img>
+            </a>
+          </div>
+      </footer>
+    </div>
   )
 }
 
