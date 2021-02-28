@@ -13,7 +13,6 @@ import linkedInIcon from "../images/linkedin.svg"
 import githubIcon from "../images/github.svg"
 
 import Header from "./header"
-import "../css/style.css"
 import "../css/styles.css"
 
 const Layout = ({ children }) => {
