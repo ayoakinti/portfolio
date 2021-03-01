@@ -1,11 +1,11 @@
 import React from "react"
 import image from "../images/hero_image.png"
 
-import Layout from "../components/layout"
+// import Layout from "../layouts/index"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
-  <Layout>
+  <div>
     <SEO title="About" />
     <div className="main-content">
       <div className="container">
@@ -31,30 +31,32 @@ const SecondPage = () => (
                 Ionic-vue. I am also intrigued about how the backend works and
                 should dive into Node.js or Python in the coming months.
               </p>
-              <p className="hero-quote">I strongly believe that the mind is our greatest tool and
-              with the right mindset, anything is achievable so I am not shy of
-              taking on a new challenge or adopting new technology.
+              <p className="hero-quote">
+                I strongly believe that the mind is our greatest tool and with
+                the right mindset, anything is achievable so I am not shy of
+                taking on a new challenge or adopting new technology.
               </p>
               <p className="hero-quote">
-                I am currently interested in freelancing, and open to opportunities in
-                the USA, UK, Canada or Germany.
+                I am currently interested in freelancing, and open to
+                opportunities in the USA, UK, Canada or Germany.
               </p>
             </div>
           </div>
           <div className="col-lg-5 d-flex justify-content-end">
-          <div
-                class="about-3-thumb d-flex justify-content-center show-on-scroll-left"
-                data-wow-duration="3000ms"
-                data-wow-delay="0ms"
-              >
-                <img src={image} alt="hero"></img>
-              </div>
-            
+            <div
+            className="d-flex align-items-center"
+              data-sal="slide-left"
+              data-sal-delay="0"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
+            >
+              <img src={image} alt="hero"></img>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </Layout>
+  </div>
 )
 
 export default SecondPage

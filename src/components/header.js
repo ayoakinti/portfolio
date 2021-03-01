@@ -24,6 +24,10 @@ const Header = ({ siteTitle }) => {
             color: `white`,
             textDecoration: `none`,
           }}
+          data-sal="fade"
+          data-sal-delay="0"
+          data-sal-duration="2000"
+          data-sal-easing="ease"
         >
           {siteTitle}
         </Link>
@@ -34,22 +38,22 @@ const Header = ({ siteTitle }) => {
         </div>
         <ul className={menuClass}>
           <li>
-            <Link className="nav-link" activeClassName="active" to="/">
+            <Link className="nav-link" onClick={handleSidemenu} activeClassName="active" to="/">
               home
             </Link>
           </li>
           <li>
-            <Link className="nav-link" activeClassName="active" to="/about">
+            <Link className="nav-link" onClick={handleSidemenu} activeClassName="active" to="/about">
               about me
             </Link>
           </li>
           <li>
-            <Link className="nav-link" activeClassName="active" to="/projects">
+            <Link className="nav-link" onClick={handleSidemenu} activeClassName="active" to="/projects">
               my projects
             </Link>
           </li>
           <li className="mr-0">
-            <Link className="nav-link" activeClassName="active" to="/contact">
+            <Link className="nav-link" onClick={handleSidemenu} activeClassName="active" to="/contact">
               contact me
             </Link>
           </li>

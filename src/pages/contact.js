@@ -1,11 +1,11 @@
 import React from "react"
 // import image from "../images/hero_image.png"
 
-import Layout from "../components/layout"
+// import Layout from "../layouts/index"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
-  <Layout>
+  <div>
     <SEO title="Contact" />
     <div className="main-content">
       <div className="container">
@@ -27,7 +27,10 @@ const SecondPage = () => (
               interested.
             </p>
           </div>
-          <div className="col-lg-7 d-flex justify-content-end">
+          <div className="col-lg-7 d-flex justify-content-end" data-sal="slide-left"
+              data-sal-delay="0"
+              data-sal-duration="1000"
+              data-sal-easing="ease">
             <div className="col-lg-9 hero-text">
               <h3>Get in touch</h3>
               <form>
@@ -54,7 +57,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-  </Layout>
+  </div>
 )
 
 export default SecondPage

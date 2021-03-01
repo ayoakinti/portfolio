@@ -4,11 +4,11 @@ import movie from "../images/movie.png"
 import mobile from "../images/gricd-mobile.png"
 import gricd from "../images/gricd.png"
 
-import Layout from "../components/layout"
+// import Layout from "../layouts/index"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
-  <Layout>
+  <div>
     <SEO title="Projects" />
     <div className="main-content">
       <div className="container">
@@ -49,9 +49,10 @@ const SecondPage = () => (
           </div>
           <div className="col-lg-7">
             <div
-              className="update-news-thumb text-right wow show-on-scroll-right"
-              data-wow-duration="3000ms"
-              data-wow-delay="0ms"
+              data-sal="slide-down"
+              data-sal-delay="0"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
             >
               <img src={gricd} alt="" />
             </div>
@@ -60,9 +61,10 @@ const SecondPage = () => (
         <div className="row my-4 mobile-flex-reverse">
           <div className="col-lg-7">
             <div
-              className="update-news-thumb wow show-on-scroll-left"
-              data-wow-duration="3000ms"
-              data-wow-delay="0ms"
+              data-sal="slide-right"
+              data-sal-delay="200"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
             >
               <img src={mobile} alt="" />
             </div>
@@ -117,9 +119,8 @@ const SecondPage = () => (
           </div>
           <div className="col-lg-7">
             <div
-              className="update-news-thumb text-right wow show-on-scroll-right"
-              data-wow-duration="3000ms"
-              data-wow-delay="0ms"
+              data-sal="slide-left"
+              data-sal-duration="1000"
             >
               <img src={ssp} alt="" />
             </div>
@@ -128,9 +129,9 @@ const SecondPage = () => (
         <div className="row my-4 mobile-flex-reverse">
           <div className="col-lg-7">
             <div
-              className="update-news-thumb wow show-on-scroll-left"
-              data-wow-duration="3000ms"
-              data-wow-delay="0ms"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
             >
               <img src={movie} alt="" />
             </div>
@@ -163,7 +164,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-  </Layout>
+  </div>
 )
 
 export default SecondPage
