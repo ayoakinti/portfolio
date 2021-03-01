@@ -1,5 +1,5 @@
 import React from "react"
-import image from "../images/hero_image.png"
+// import image from "../images/hero_image.png"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"

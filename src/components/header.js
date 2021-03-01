@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => {
 
   const handleSidemenu = () => {
     console.log("clicked")
-    if(menuClass === ""){
+    if (menuClass === "") {
       setmenuClass("show")
     } else {
       setmenuClass("")
@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => {
         </Link>
       </div>
       <nav>
-        <div onClick={handleSidemenu} className="menu-icon">
+        <div onClick={handleSidemenu} className="menu-icon" aria-hidden="true">
           <img className="" width="20px" src={menuIcon} alt="menu-icon"></img>
         </div>
         <ul className={menuClass}>
