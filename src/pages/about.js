@@ -15,7 +15,7 @@ const SecondPage = () => (
               <h2>About me</h2>
               <p className="hero-quote">
                 Hello, my name is Ayomide Akintimehin, and I am a software
-                engineer with over <span className="font-bold">12 months of professional experience.</span>
+                engineer with over 12 months of professional experience.
               </p>
               <p className="hero-quote">
                 I am really passionate about solving complex problems and love

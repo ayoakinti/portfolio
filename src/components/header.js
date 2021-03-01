@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import menuIcon from "../images/menu.svg"
-import crossIcon from "../images/cross.svg"
 
 const Header = ({ siteTitle }) => {
   const [menuClass, setmenuClass] = useState("")
@@ -18,9 +17,7 @@ const Header = ({ siteTitle }) => {
 
   let mask = "";
   if(menuClass === "show"){
-    mask = <div className="mask" onClick={handleSidemenu} aria-hidden="true">
-      <img className="" width="20px" src={crossIcon} alt="menu-icon"></img>
-    </div>
+    mask = <div className="mask" onClick={handleSidemenu} aria-hidden="true"></div>
   }
 
   return (
