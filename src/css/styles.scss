@@ -227,7 +227,11 @@ footer .footer-link:hover {
   cursor: pointer;
 }
 
-
+@media (min-width: 769px) {
+  .mask {
+    display: none;
+  }
+}
 
 @media (max-width: 576px) {
   header {
@@ -243,35 +247,36 @@ footer .footer-link:hover {
   // }
   nav ul {
     // display: none;
-    position: absolute;
-    top: 20px;
-    right: 0;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
     flex-direction: column;
     background: #293531;
-    padding: 0 10px;
-    width: 200px;
-    height: 0;
+    padding: 40px 0;
+    width: 0;
+    height: 100vh;
     overflow: hidden;
-    border-radius: 12px;
     transition: 0.3s ease-out;
+    display: flex;
+    align-items: center;
   }
   nav ul.show {
-    height: 184px;
-    width: 200px;
-  }
-  nav ul li {
-    margin: auto !important;
+    width: 100%;
   }
   nav ul li {
     padding: 10px;
+    margin: 0;
   }
   .mask {
     position: fixed;
     top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-  
+    right: 0;
+    z-index: 2;
+    padding: 10px;
+    overflow: hidden;
+    max-width: 100vw !important;
+    box-sizing: border-box;
   }
 }
 
