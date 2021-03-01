@@ -12,7 +12,7 @@ const SecondPage = () => (
         <div className="row">
           <div className="col-lg-5 hero-text">
             {/* <img src={image} alt="hero"></img> */}
-            <h3>Hello there!</h3>
+            <h2>Hello there!</h2>
             {/* <h2 className="hero-title text-justify">
               I am looking forward to starting a project with you!
             </h2> */}
@@ -27,27 +27,48 @@ const SecondPage = () => (
               interested.
             </p>
           </div>
-          <div className="col-lg-7 d-flex justify-content-end" data-sal="slide-left"
-              data-sal-delay="0"
-              data-sal-duration="1000"
-              data-sal-easing="ease">
+          <div
+            className="col-lg-7 d-flex justify-content-end"
+            data-sal="slide-left"
+            data-sal-delay="0"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
             <div className="col-lg-9 hero-text">
               <h3>Get in touch</h3>
-              <form>
+              <form
+              id="myForm"
+                target="_blank"
+                action="https://getform.io/f/44a48cb2-3f9e-46a4-8796-15512b40d6a0"
+                method="POST"
+                onSubmit={() => {
+                  var form = document.getElementById("myForm")
+                  form.reset()
+                }}
+              >
                 <div className="form-group">
                   <label htmlFor="name">Name</label>
-                  <input type="text" id="name" required></input>
+                  <input type="text" id="name" name="name" required></input>
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">Email address</label>
-                  <input type="email" name="email" required></input>
+                  <input type="email" id="email" name="email" required></input>
                 </div>
                 <div className="form-group">
                   <label htmlFor="message">Message</label>
-                  <textarea rows="6" required></textarea>
+                  <textarea
+                    rows="6"
+                    name="message"
+                    id="message"
+                    required
+                  ></textarea>
                 </div>
                 <div className="form-group">
-                  <button className="btn py-2" type="submit">
+                  <button
+                    className="btn py-2"
+                    
+                    type="submit"
+                  >
                     Submit
                   </button>
                 </div>

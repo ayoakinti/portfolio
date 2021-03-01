@@ -12,8 +12,8 @@ const SecondPage = () => (
     <SEO title="Projects" />
     <div className="main-content">
       <div className="container">
-        <div className="row my-4">
-          <div className="col-lg-5 d-flex align-items-center">
+        <div className="row my-4 justify-content-between">
+          <div className="col-lg-4 d-flex align-items-center">
             <div>
               {/* <span className="hero-quote">Web App Design</span> */}
               <h3>Gricd Enterprise Web (VueJS)</h3>
@@ -47,7 +47,7 @@ const SecondPage = () => (
               </a>
             </div>
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-7 d-flex align-items-center">
             <div
               data-sal="slide-down"
               data-sal-delay="0"
@@ -58,8 +58,8 @@ const SecondPage = () => (
             </div>
           </div>
         </div>
-        <div className="row my-4 mobile-flex-reverse">
-          <div className="col-lg-7">
+        <div className="row my-4 mobile-flex-reverse justify-content-between">
+          <div className="col-lg-7 d-flex align-items-center">
             <div
               data-sal="slide-right"
               data-sal-delay="200"
@@ -69,7 +69,7 @@ const SecondPage = () => (
               <img src={mobile} alt="" />
             </div>
           </div>
-          <div className="col-lg-5 d-flex align-items-center">
+          <div className="col-lg-4 d-flex align-items-center">
             <div>
               {/* <span className="hero-quote">Web App Design</span> */}
               <h3>Gricd Enterprise Mobile (Ionic-vue)</h3>
@@ -91,8 +91,8 @@ const SecondPage = () => (
             </div>
           </div>
         </div>
-        <div className="row my-4">
-          <div className="col-lg-5 d-flex align-items-center">
+        <div className="row my-4 justify-content-between">
+          <div className="col-lg-4 d-flex align-items-center">
             <div>
               {/* <span className="hero-quote">Web App Design</span> */}
               <h3>Solarschool Project (ReactJS)</h3>
@@ -117,7 +117,7 @@ const SecondPage = () => (
               </a> */}
             </div>
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-7 d-flex align-items-center">
             <div
               data-sal="slide-left"
               data-sal-duration="1000"
@@ -126,8 +126,8 @@ const SecondPage = () => (
             </div>
           </div>
         </div>
-        <div className="row my-4 mobile-flex-reverse">
-          <div className="col-lg-7">
+        <div className="row my-4 mobile-flex-reverse justify-content-between">
+          <div className="col-lg-7 d-flex align-items-center">
             <div
               data-sal="slide-up"
               data-sal-duration="1000"
@@ -136,7 +136,7 @@ const SecondPage = () => (
               <img src={movie} alt="" />
             </div>
           </div>
-          <div className="col-lg-5 d-flex align-items-center">
+          <div className="col-lg-4 d-flex align-items-center">
             <div>
               {/* <span className="hero-quote">Web App Design</span> */}
               <h3>Movie Search App (ReactJS with Hooks)</h3>

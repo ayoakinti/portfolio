@@ -42,6 +42,7 @@ const Layout = ({ children, location }) => {
             href="https://twitter.com/iamayoakinti"
             target="_blank"
             rel="noreferrer"
+            className="d-flex justify-content-center align-items-center"
           >
             <img src={twitterIcon} alt=""></img>
           </a>
@@ -51,6 +52,7 @@ const Layout = ({ children, location }) => {
             href="https://www.linkedin.com/in/ayomideakintimehin/"
             target="_blank"
             rel="noreferrer"
+            className="d-flex justify-content-center align-items-center"
           >
             <img src={linkedInIcon} alt=""></img>
           </a>
@@ -60,6 +62,7 @@ const Layout = ({ children, location }) => {
             href="https://github.com/iamayoakinti"
             target="_blank"
             rel="noreferrer"
+            className="d-flex justify-content-center align-items-center"
           >
             <img src={githubIcon} alt=""></img>
           </a>
