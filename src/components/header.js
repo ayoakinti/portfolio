@@ -7,12 +7,17 @@ const Header = ({ siteTitle }) => {
   const [menuClass, setmenuClass] = useState("")
 
   const handleSidemenu = () => {
-    console.log("clicked")
+    // console.log("clicked")
     if (menuClass === "") {
       setmenuClass("show")
     } else {
       setmenuClass("")
     }
+  }
+
+  let mask = "";
+  if(menuClass === "show"){
+    mask = <div className="mask" onClick={handleSidemenu} aria-hidden="true"></div>
   }
 
   return (
@@ -36,6 +41,7 @@ const Header = ({ siteTitle }) => {
         <div onClick={handleSidemenu} className="menu-icon" aria-hidden="true">
           <img className="" width="20px" src={menuIcon} alt="menu-icon"></img>
         </div>
+        { mask }
         <ul className={menuClass}>
           <li>
             <Link className="nav-link" onClick={handleSidemenu} activeClassName="active" to="/">

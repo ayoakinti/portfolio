@@ -46,6 +46,7 @@ p {
 header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,6 +241,14 @@ footer .footer-link:hover {
   cursor: pointer;
 }
 
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
 @media (max-width: 576px) {
   header {
     padding: 15px;
@@ -265,6 +274,10 @@ footer .footer-link:hover {
   }
   nav ul.show {
     height: 184px;
+    width: 200px;
+  }
+  nav ul li {
+    margin: auto !important;
   }
   nav ul li {
     padding: 10px;
