@@ -37,13 +37,15 @@ const SecondPage = () => (
             <div className="col-lg-9 hero-text">
               <h3>Get in touch</h3>
               <form
-              id="myForm"
+                id="myForm"
                 target="_blank"
                 action="https://getform.io/f/44a48cb2-3f9e-46a4-8796-15512b40d6a0"
                 method="POST"
                 onSubmit={() => {
-                  var form = document.getElementById("myForm")
-                  form.reset()
+                  setTimeout(() => {
+                    var form = document.getElementById("myForm")
+                    form.reset()
+                  }, 2000)
                 }}
               >
                 <div className="form-group">
@@ -64,11 +66,7 @@ const SecondPage = () => (
                   ></textarea>
                 </div>
                 <div className="form-group">
-                  <button
-                    className="btn py-2"
-                    
-                    type="submit"
-                  >
+                  <button className="btn py-2" type="submit">
                     Submit
                   </button>
                 </div>
