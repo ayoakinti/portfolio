@@ -26,6 +26,9 @@ const SecondPage = () => (
               Or you want me to help out on a project? I am also very
               interested.
             </p>
+            <p className="hero-quote">
+              <a className="hero-link" href = "mailto: ayoakinti@gmail.com">ayoakinti@gmail.com</a>
+            </p>
           </div>
           <div
             className="col-lg-7 d-flex justify-content-end"
