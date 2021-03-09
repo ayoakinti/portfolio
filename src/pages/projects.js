@@ -39,7 +39,7 @@ const SecondPage = () => (
               </p>
               <a
                 className="hero-link"
-                href="https://beta.gricd.com"
+                href="https://enterprise.gricd.com"
                 rel="noreferrer"
                 target="_blank"
               >
