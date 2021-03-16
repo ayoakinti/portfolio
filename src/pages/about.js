@@ -27,9 +27,16 @@ const SecondPage = () => (
               </p>
               <p className="hero-quote">
                 At the moment, I have experience with tools for frontend
-                development of products, with knowledge of <span className="font-bold">Vue.js, React.js, and
-                Ionic-vue</span>. I am also intrigued about how the backend works and
-                should dive into <span className="font-bold">Node.js or Python</span> in the coming months.
+                development of products, with knowledge of{" "}
+                <span className="font-bold">
+                  Vue.js, React.js, and Ionic-vue
+                </span>
+                . I am also intrigued about how the backend works and worked on
+                a small project using the{" "}
+                <span className="font-bold">Node.js (express)</span> framework,
+                where users can sign up and give reviews about houses they've
+                lived in, and random visitors can upvote/downvote a review as
+                well as sort by relevance or date added.
               </p>
               <p className="hero-quote">
                 I strongly believe that the mind is our greatest tool and with
@@ -44,7 +51,7 @@ const SecondPage = () => (
           </div>
           <div className="col-lg-5 d-flex justify-content-end">
             <div
-            className="d-flex align-items-center"
+              className="d-flex align-items-center"
               data-sal="slide-left"
               data-sal-delay="0"
               data-sal-duration="1000"
