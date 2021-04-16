@@ -21,22 +21,24 @@ const SecondPage = () => (
                 I am really passionate about solving complex problems and love
                 to be part of a team that recognises the significance of
                 critical thinking in the analysis of variants to provide
-                solutions. I am a great enthusiast of data structures and
-                algorithms, and have completed 2 courses on these subjects, and
-                I keep learning everyday to improve my critical thinking skills.
+                solutions.
               </p>
               <p className="hero-quote">
-                At the moment, I have experience with tools for frontend
-                development of products, with knowledge of{" "}
-                <span className="font-bold">
-                  Vue.js, React.js, and Ionic-vue
+                Right now, I am striving to improve greatly with algorithms and
+                data structures, and also building projects to improve myself so
+                I can get a job in a FAANG company and also start earning in
+                dollars. Cool right?{" "}
+                <span role="img" aria-label="emoji cool">
+                  😎
                 </span>
-                . I am also intrigued about how the backend works and worked on
-                a small project using the{" "}
-                <span className="font-bold">Node.js (express)</span> framework,
-                where users can sign up and give reviews about houses they've
-                lived in, and random visitors can upvote/downvote a review as
-                well as sort by relevance or date added.
+              </p>
+              <p className="hero-quote">
+                At the moment, I have experience with the{" "}
+                <span className="font-bold">JavaScript/TypeScript{" "}</span>
+                and its frameworks, with knowledge of{" "}
+                <span className="font-bold">
+                  React.js, Vue.js, Node.js, Nuxt.js and Ionic-vue.
+                </span>
               </p>
               <p className="hero-quote">
                 I strongly believe that the mind is our greatest tool and with
@@ -44,8 +46,11 @@ const SecondPage = () => (
                 taking on a new challenge or adopting new technology.
               </p>
               <p className="hero-quote">
-                I am currently interested in working remotely, and open to
-                opportunities in the USA, UK, Canada or Germany.
+                Connect with me and let's build great products. Pay me in
+                dollars too please.{" "}
+                <span role="img" aria-label="emoji money">
+                  🤑
+                </span>
               </p>
             </div>
           </div>

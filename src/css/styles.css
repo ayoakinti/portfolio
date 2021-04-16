@@ -249,6 +249,16 @@ footer .footer-link:hover {
   font-weight: bold;
 }
 
+a {
+  color: rgba(41, 53, 49, 0.74);
+  padding: 6px 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .menu-icon {
   display: -webkit-box;
   display: -ms-flexbox;
