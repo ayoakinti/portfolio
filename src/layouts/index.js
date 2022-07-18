@@ -39,7 +39,7 @@ const Layout = ({ children, location }) => {
       <footer>
         <div className="footer-link mr-20">
           <a
-            href="https://twitter.com/iamayoakinti"
+            href="https://twitter.com/ayoakinti"
             target="_blank"
             rel="noreferrer"
             className="d-flex justify-content-center align-items-center"
@@ -59,7 +59,7 @@ const Layout = ({ children, location }) => {
         </div>
         <div className="footer-link">
           <a
-            href="https://github.com/iamayoakinti"
+            href="https://github.com/ayoakinti"
             target="_blank"
             rel="noreferrer"
             className="d-flex justify-content-center align-items-center"

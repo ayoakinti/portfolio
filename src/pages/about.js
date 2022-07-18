@@ -24,33 +24,27 @@ const SecondPage = () => (
                 solutions.
               </p>
               <p className="hero-quote">
-                Right now, I am striving to improve greatly with algorithms and
-                data structures, and also building projects to improve myself so
-                I can get a job in a FAANG company and also start earning in
-                dollars. Cool right?{" "}
-                <span role="img" aria-label="emoji cool">
-                  😎
-                </span>
+              I ensure projects I work on are scalable and the performance is thoroughly optimised. With an excellent eye for design and meticulous analysis, I provide pixel-perfect implementations and seamless user interfaces for the optimal experience.
               </p>
               <p className="hero-quote">
-                At the moment, I have experience with the{" "}
-                <span className="font-bold">JavaScript/TypeScript{" "}</span>
-                and its frameworks, with knowledge of{" "}
+              I also greatly utilise my critical thinking skills and knowledge of data structures and algorithms to ensure optimal solutions. I am also a great communicator and a tremendous team player.
+              </p>
+              <p className="hero-quote">
+                I have industry experience with{" "}
+                <span className="font-bold">JavaScript</span>
+                <span>, specializing in{" "}</span>
                 <span className="font-bold">
-                  React.js, Vue.js, Node.js, Nuxt.js and Ionic-vue.
+                  React.js, Vue.js, Nuxt.js and TypeScript.{" "}
+                </span>
+                I also have experience working with{" "}
+                <span className="font-bold">
+                webpack, Node JS, Django and MongoDB.
                 </span>
               </p>
               <p className="hero-quote">
                 I strongly believe that the mind is our greatest tool and with
                 the right mindset, anything is achievable so I am not shy of
                 taking on a new challenge or adopting new technology.
-              </p>
-              <p className="hero-quote">
-                Connect with me and let's build great products. Pay me in
-                dollars too please.{" "}
-                <span role="img" aria-label="emoji money">
-                  🤑
-                </span>
               </p>
             </div>
           </div>
